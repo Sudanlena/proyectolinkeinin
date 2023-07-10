@@ -8,5 +8,19 @@ font-family:Jost;
 }
 @font-face {
     font-family: "Jost";
-    src: url(Jost-Regular.ttf);
+    src: url(Jost-Regular.tt)
 }
+
+
+.Susan{
+    border-radius: 300px 300px 300px 300px; 
+}
+
+.backgraund{ 
+
+    background-color: #ff7f99;
+
+}
+
+
+
