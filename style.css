@@ -125,9 +125,37 @@ body{
 
 .bottom:hover{
 
-    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    box-shadow:50px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
     color: #ff7f99;
     
 }
 
+.Email{
+
+    display:flex;
+    left: 80%;
+    top: 50%;
+    background-color: #ff7f99;
+    color: white;
+    border-color:#ffca41;
+    border-width:10px;
+    font-family: jost;
+    text-decoration:none;
+    font-weight:700;
+    border-radius: 80px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: all 400ms ease;
+    box-shadow:0px 1px 10px rgba(0,0,0,0.2);
+
+}
+    .Email:hover{
+
+        box-shadow:50px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+        color:#ffca41;
+        
+
+    }
