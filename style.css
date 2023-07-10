@@ -11,16 +11,49 @@ font-family:Jost;
     src: url(Jost-Regular.tt)
 }
 
+footer { background-color: #ff7f99}
 
-.Susan{
-    border-radius: 300px 300px 300px 300px; 
-}
-
-.backgraund{ 
-
-    background-color: #ff7f99;
-
+.redondeo{
+    border-radius:50%; 
 }
 
 
+.pictures{ 
+   
+    display:flex; 
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between; 
+       
+
+}
+
+.Susana{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh;
+    height: 50vh;
+}
+
+.texwhite{
+    color: white;
+}
+.Mariam{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh;
+
+}
+
+.Yasmina{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh;
+}
 
