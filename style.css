@@ -30,8 +30,7 @@ font-family:Jost;
 .you{
     font-size: 80px;
     display: flex;
-    -ms-flex-direction: column-reverse;
-
+    flex-direction: column-reverse;
     color:#FFCA41
 }
     
