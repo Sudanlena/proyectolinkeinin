@@ -1,11 +1,9 @@
 *{ 
     margin: 0;
     padding:0;
-font-family:Jost;    
-
-    
-    
+font-family:Jost;      
 }
+
 @font-face {
     font-family: "Jost";
     src: url(Jost-Regular.tt)
@@ -76,3 +74,60 @@ footer {
     align-items: center;
     padding: 8vh;
 }
+
+#barraSup{
+    display: flex;
+    align-items: center;
+    background-color: #FF7F99;
+    height: 200px;
+    padding: 50px;
+}
+.texIzq{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.textoNavbarIzq{
+    font-size: 80px;
+    color:white;
+
+}
+.you{
+    font-size: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    color:#FFCA41
+}
+    
+
+/* desde aqui hacia abajo parte derecha de la barra*/
+
+.texder{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 80px;  
+    padding: 50px;
+    width: 100%
+}
+.textoSomos{
+    color: white;
+    border: 5px; ;
+    padding: 25px;
+}
+.equipo{
+    color: white;
+    padding: 25px;
+}
+button{
+    font-size: 80px;
+    padding:25px;
+    background-color: #f8c7d0;
+    color: white;
+    border-radius: 40PX;
+    border-color: #FFCA41;
+    
+}
+
+
+
