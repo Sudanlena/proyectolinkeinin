@@ -11,10 +11,22 @@ font-family:Jost;
     src: url(Jost-Regular.tt)
 }
 
-footer { background-color: #ff7f99}
+footer { 
+    width: 150%;
+    
+    background-color: #ff7f99
+    
+
+
+
+}
 
 .redondeo{
     border-radius:50%; 
+    width: 500px;
+  height: 500px;
+  
+
 }
 
 
