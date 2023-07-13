@@ -1,0 +1,129 @@
+*{ 
+    margin: 0;
+    padding:0;
+font-family:Jost;      
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(Jost-Regular.tt)
+}
+/*encabezado navbar janina*/
+#barraSup{
+    display: flex;
+    align-items: center;
+    background-color: #FF7F99;
+    height: 17vh;
+    width: 100%;
+    padding: 4vw;
+}
+.texIzq{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textoNavbarIzq{
+    font-size: 2vh;
+    color:white;
+}
+.you{
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column-reverse;
+    color:#FFCA41
+}
+/* desde aqui hacia abajo parte derecha de la Navbar*/
+
+.texder{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2vh;  
+    padding: 4vh;
+    width: 100%
+}
+.textoSomos{
+    color: white;
+    border: 2vw; 
+    padding: 2vw;
+}
+.equipo{
+    color: white;
+    padding: 25px;
+}
+button{
+    font-size: 2vh;
+    padding:4vw;
+    background-color: #f8c7d0;
+    color: white;
+    border-radius: 40PX;
+    border-color: #FFCA41;
+}
+
+.gotarara{
+background-color: white;
+height: 170vh;
+
+}
+/*parte de susana (pie de pagina)*/
+
+footer { 
+    width: 100%;
+    background-color: #ff7f99
+}
+
+.redondeo{
+    border-radius:50%; 
+    width: 15vw;
+    height: 25vh;
+}
+
+.pictures{ 
+   
+    display:flex; 
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between; 
+       
+
+}
+
+.Susana{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh;
+    height: 50vh;
+}
+
+.texwhite{
+    color: white;
+}
+.Mariam{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh;
+
+}
+
+.Janina{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh;
+}
+
+.Daniela{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh;
+}
+
+
+
+
